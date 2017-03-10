@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.garyhu.acachedemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AboutActivity" />
+        <activity android:name=".activity.SaveBitmapActivity" />
+        <activity android:name=".activity.SaveJsonObjectActivity" />
+        <activity android:name=".activity.SaveObjectActivity" />
+        <activity android:name=".activity.SaveStringActivity" />
+        <activity android:name=".activity.SaveMediaActivity" />
+        <activity
+            android:name=".activity.SaveDrawableActivity"
+            android:label="@string/title_activity_save_drawable" >
+        </activity>
+        <activity
+            android:name=".activity.SaveJsonArrayActivity"
+            android:label="@string/title_activity_save_json_array" >
+        </activity>
+    </application>
+
+</manifest>

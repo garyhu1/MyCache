@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ACacheDemo</string>
+    <string name="hello_world">AsimpleCacheDemo </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_save_drawable">SaveDrawableActivity</string>
+    <string name="title_activity_save_json_array">SaveJsonArrayActivity</string>
+</resources>
